@@ -1,0 +1,169 @@
+.top_line {
+    background-color: #6f7c92;
+    min-height: 5px;
+}
+
+.navbar_float {
+    color: black;
+    padding: 15px;
+}
+
+.navbar_float:hover {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: none;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.active {
+    border-bottom: 3px solid #6f7c92;
+    color: #6f7c92;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+}
+
+.nav-link {
+    margin-top: 1px;
+}
+
+.title_font {
+    color: #6f7c92;
+}
+
+.logout_content {
+    position: relative;
+    right: 10px;
+}
+
+.logo_design {
+    width: 130px;
+    height: 45px;
+}
+
+.header {
+    font-size: 13px;
+    font-weight: bold;
+    min-width: 270px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding: 4px 0 6px 0;
+}
+
+.body-test {
+    line-height: 1.42857143;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+}
+
+.waves-block {
+    display: block;
+}
+
+.menu-info {
+    display: inline-block;
+    /* padding: 10px; */
+    position: relative;
+    top: 3px;
+    /* border-bottom: 1px solid #eee; */
+    /* left: 5px; */
+}
+
+.menu-info h4 {
+    margin: 0;
+    font-size: 13px;
+    color: #333;
+}
+
+.menu-info p {
+    margin: 0;
+    font-size: 11px;
+    color: #aaa;
+}
+
+.menu-info p .material-icons {
+    font-size: 13px;
+    color: #aaa;
+    position: relative;
+    top: 2px;
+}
+
+.notify_icon {
+    position: relative;
+}
+
+
+/* .notify_height {
+  height: 200px;
+  overflow: auto;
+} */
+
+.notify_icon_inner {
+    position: absolute;
+    top: 3px;
+    left: 33px;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.notify_icon_background {
+    position: absolute;
+    top: 5px;
+    left: 28px;
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.Time1 {
+    position: absolute;
+    right: 75px;
+    /* padding: 0 3px; */
+    margin-bottom: 30px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.notify-fade {
+    animation: fade-in-keyframes 1s;
+}
+
+@keyframes fade-in-keyframes {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.icon_bg1:hover {
+    background: #dcdcdc;
+    border-radius: 5px;
+}
